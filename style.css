@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 110px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+}
+
+.navbar img{
+    width: 100px;
+    height: 35px;
+}
+
+.navbar span {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 200px;
+}
+
+.navbar span a{
+    text-decoration: none;
+    color: rgb(131, 131, 131)
+}
+
+.herosection{
+    width: 100%;
+    height: 750px;
+    background-image: url(./images/herosection.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+.hero-box{
+    width: 610px;
+    height: 320px;
+    background-color: rgb(32, 32, 147);
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.hero-box h1{
+    font-size: 52px;
+    margin-top: 15px;
+}
+
+.hero-box p{
+    margin-top: 20px;
+}
+
+.hero-box button{
+    width: 260px;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(249, 249, 30);
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-inline: 19px;
+    margin-top: 30px;
+}
+
+.box1{
+    width: 480px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.box1 p{
+    margin-top: 10px;
+}
+
+.box1 img{
+    width: 480px;
+    height: 273px;
+    margin-top: 20px;
+}
+
+.section2{
+    width: 100%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.section2 h4{
+    margin-top: 40px;
+}
+
+.section2 h1{
+    margin-top: 40px;
+}
+
+.section2 button{
+    width: 210px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(255, 217, 0);
+    border: none;
+}
+
+.section2 span{
+    display: flex;
+    flex-direction: row;
+}
+
+.smallsection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.smallsection img{
+    width: 60px;
+    height: 60px;
+}
+
+.smallsection p{
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.ul-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 200px;
+
+}
+
+#ul1 li:first-child{
+    font-size: 22px;
+}
+
+#ul1 li:nth-child(2){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul1 li:nth-child(3){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul1 li:nth-child(4){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul2 li:first-child{
+    font-size: 22px;
+}
+
+#ul2 li:nth-child(2){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul2 li:nth-child(3){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul2 li:nth-child(4){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul3 li:first-child{
+    font-size: 22px;
+}
+
+#ul3 li:nth-child(2){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul3 li:nth-child(3){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul3 li:nth-child(4){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul3 li:nth-child(5){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul4 li:first-child{
+    font-size: 22px;
+}
+
+#ul4 li:nth-child(2){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul4 li:nth-child(3){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul4 li:nth-child(4){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul4 li:nth-child(5){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul4 li:nth-child(6){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+
+#ul5 li:first-child{
+    font-size: 22px;
+}
+
+#ul5 li:nth-child(2){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(3){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(4){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(5){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(6){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(7){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+#ul5 li:nth-child(8){
+    color: rgb(169, 169, 169);
+    margin-top: 20px;
+}
+
+.lastdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-inline: 150px;
+    color: rgb(169, 169, 169);
+}
+
+.lastdiv span{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 200px;
+    font-size: 30px;
+    color: gray;
+}
+
+.lastdiv  button{
+    width: 280px;
+    height: 60px;
+    color: rgb(148, 148, 148);
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    justify-content: space-between;
+}
